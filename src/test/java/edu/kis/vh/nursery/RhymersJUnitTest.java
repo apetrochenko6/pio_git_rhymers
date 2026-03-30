@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+//projekt jest poprawny
 public class RhymersJUnitTest {
 
     public static final int STACK_CAPACITY = 12;
