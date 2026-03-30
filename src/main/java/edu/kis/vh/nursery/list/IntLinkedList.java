@@ -4,8 +4,7 @@ public class IntLinkedList {
 
     public static final int EMPTY = -1;
     private Node last;
-    int i;
-
+    int i;// TODO: można usunąć i
     public void push(int i) {
         if (last == null)
             last = new Node(i);
@@ -34,6 +33,7 @@ public class IntLinkedList {
         if (isEmpty())
             return EMPTY;
         int ret = last.value;
+
         last = last.prev;
         return ret;
     }
